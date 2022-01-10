@@ -40,7 +40,7 @@ In order to run benchmarks, type this command in your favorite terminal :
 |                   WithParamsTraceLogging |     50 | 113.599 ns | 100.364 ns | 141.127 ns |    7 | 0.0134 |      56 B |
 ```
 
-**As you can see, the default logger is not optimized unless you use IsEnabled, Define or LoggerMessage in order to eliminates the issue of object[] allocation and unnecessary calculations.**
+**As you can see, the default logger is not optimized unless you use [IsEnabled](https://docs.microsoft.com/en-us/dotnet/api/microsoft.extensions.logging.ilogger.isenabled), [Define](https://docs.microsoft.com/en-us/dotnet/api/microsoft.extensions.logging.loggermessage.define) or [LoggerMessage](https://docs.microsoft.com/en-us/dotnet/core/extensions/logger-message-generator) in order to eliminates the issue of object[] allocation and unnecessary calculations.**
 
 >
 **`References`** :
@@ -48,6 +48,8 @@ In order to run benchmarks, type this command in your favorite terminal :
 > :zap: [You are doing .NET logging wrong](https://www.youtube.com/watch?v=bnVfrd3lRv8)
 >
 > :zap: [High-Performance logging with LoggerMessage](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/logging/loggermessage)
+>
+> :zap: [Compile-time logging source generation](https://docs.microsoft.com/en-us/dotnet/core/extensions/logger-message-generator)
 
 >
 **`Tools`** : vs22, net 6.0, serilog
