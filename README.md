@@ -9,11 +9,11 @@ In this demo, i m using [BenchmarkDotNet](https://github.com/dotnet/BenchmarkDot
 >
 > :one: `DefaultLoggerBench` : a bench based on [default logger](https://docs.microsoft.com/en-us/dotnet/api/microsoft.extensions.logging.ilogger) provided by microsoft
 >
-> :two: `DefaultLoggerVariantBench` : a bench based on a wrapper around [default logger](https://docs.microsoft.com/en-us/dotnet/api/microsoft.extensions.logging.ilogger) provided by microsoft
+> :two: `DefaultLoggerVariantBench` : a bench based on a custom wrapper around [default logger](https://docs.microsoft.com/en-us/dotnet/api/microsoft.extensions.logging.ilogger)
 >
 > :three: `SerilogLoggerBench` : a bench based on a [default logger](https://docs.microsoft.com/en-us/dotnet/api/microsoft.extensions.logging.ilogger) configured with [serilog logger](https://github.com/serilog/serilog)
 >
-> :four: `SerilogLoggerVariantBench` : a bench based on directly [serilog logger](https://github.com/serilog/serilog) interface and implementation
+> :four: `SerilogLoggerVariantBench` : a bench based directly on [serilog logger](https://github.com/serilog/serilog)
 >
 
 In order to run benchmarks, type this command in your favorite terminal :
