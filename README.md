@@ -45,9 +45,9 @@ In order to run benchmarks, type this command in your favorite terminal :
 >
 **`References`** :
 >
-> :zap: [Nick Chapsas - You are doing .NET logging wrong. Let's fix it](https://www.youtube.com/watch?v=bnVfrd3lRv8)
+> :zap: [You are doing .NET logging wrong](https://www.youtube.com/watch?v=bnVfrd3lRv8)
 >
-> :zap: [MSDN - High-performance logging with LoggerMessage](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/logging/loggermessage)
+> :zap: [High-Performance logging with LoggerMessage](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/logging/loggermessage)
 
 >
 **`Tools`** : vs22, net 6.0, serilog
