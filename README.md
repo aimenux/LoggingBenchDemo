@@ -52,4 +52,4 @@ In order to run benchmarks, type this command in your favorite terminal :
 > :zap: [Compile-time logging source generation](https://docs.microsoft.com/en-us/dotnet/core/extensions/logger-message-generator)
 
 >
-**`Tools`** : vs22, net 6.0, serilog
+**`Tools`** : net 10.0, serilog
